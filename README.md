@@ -17,3 +17,15 @@ Oyunda "Bilgisayar kazandı!", "Kazandın!" ve "Berabere!" olmak üzere 3 olası
 
 <img width="263" height="543" alt="Ekran görüntüsü 2025-11-19 212638" src="https://github.com/user-attachments/assets/97c46f0b-da42-490b-a5db-415f519b2c51" />
 <img width="258" height="326" alt="Ekran görüntüsü 2025-11-19 212659" src="https://github.com/user-attachments/assets/1fdf5880-3f46-4701-870f-ba86b4a18ad1" />
+
+## Kullanmak İçin
+### Ön Koşullar
+Bu projeyi çalıştırmak için bilgisayarınızda yalnızca Python 3 kurulu olmalıdır.
+### Kurulum ve Çalıştırma
+- Proje dosyasını yerel olarak indirin/oluşturun.
+- Komut satırını (Terminal/CMD) açın ve dosyanın bulunduğu dizine gidin.
+- Aşağıdaki komutu kullanarak oyunu başlatın:
+  ```
+  bash
+  python main.py
+  ```
