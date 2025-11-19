@@ -13,10 +13,7 @@ Oyuna bilgisayar başlar ve ilk hamlesini her zaman ortadaki kareye oynar.
 Oyunda "Bilgisayar kazandı!", "Kazandın!" ve "Berabere!" olmak üzere 3 olasılık bulunmaktadır.
 - Alt alta 3 tane aynı işaretin gelmesi
 - Yanyana 3 tane aynı işaretin gelmesi
-- Çarpraz şekilde düz çizgi 3 tane aynı işaretin gelmesi
-
-<img width="263" height="543" alt="Ekran görüntüsü 2025-11-19 212638" src="https://github.com/user-attachments/assets/97c46f0b-da42-490b-a5db-415f519b2c51" />
-<img width="258" height="326" alt="Ekran görüntüsü 2025-11-19 212659" src="https://github.com/user-attachments/assets/1fdf5880-3f46-4701-870f-ba86b4a18ad1" />
+- Çarpraz şekilde 3 tane aynı işaretin gelmesi
 
 ## Kullanmak İçin
 ### Ön Koşullar
@@ -27,5 +24,9 @@ Bu projeyi çalıştırmak için bilgisayarınızda yalnızca Python 3 kurulu ol
 - Aşağıdaki komutu kullanarak oyunu başlatın:
   ```
   bash
-  python main.py
+  python Arasınav Projesi.py
   ```
+## Örnek Resimler
+<img width="259" height="281" alt="Ekran görüntüsü 2025-11-19 224559" src="https://github.com/user-attachments/assets/29e7ed95-bde3-48fe-b55d-cb85593a86e9" />
+<img width="261" height="545" alt="Ekran görüntüsü 2025-11-19 224441" src="https://github.com/user-attachments/assets/c84ecd1a-ec88-433f-9792-d5998abd857a" />
+<img width="258" height="326" alt="Ekran görüntüsü 2025-11-19 212659" src="https://github.com/user-attachments/assets/1fdf5880-3f46-4701-870f-ba86b4a18ad1" />
