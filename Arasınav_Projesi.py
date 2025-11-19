@@ -32,9 +32,9 @@ def hamle_yap(tahta):
             satir = (hamle - 1) // 3
             sutun = (hamle - 1) % 3
 
-            # 3. Kare boş mu? (Boşsa, içinde 'X' veya 'O' yerine sayı olmalı)
-            if tahta[satir][sutun] not in ['X', 'O']:
-                tahta[satir][sutun] = 'O'
+            # 3. Kare boş mu? (Boşsa, içinde "X" veya "O" yerine sayı olmalı)
+            if tahta[satir][sutun] not in ["X", "O"]:
+                tahta[satir][sutun] = "O"
                 break  # Geçerli hamle, döngüden çık
             else:
                 print("Bu kare zaten dolu. Lütfen boş bir kare seçin.")
@@ -51,13 +51,13 @@ def bos_kareleri_listele(tahta):
     # s = satir, k = kolon/sutun
     for s in range(3):
         for k in range(3):
-            if tahta[s][k] not in ['X', 'O']:
+            if tahta[s][k] not in ["X", "O"]:
                 bos_kareler.append((s, k))
     return bos_kareler
 
 def kazanan_var_mi(tahta, isaret):
     """
-    Verilen işaret ('X' veya 'O') için kazanma durumunu kontrol eder.
+    Verilen işaret ("X" veya "O") için kazanma durumunu kontrol eder.
     """
     # 1. Yatay kontrol
     for s in range(3):
@@ -83,7 +83,7 @@ def kazanan_var_mi(tahta, isaret):
 def bilgisayar_hamlesi(tahta):
     """
     Bilgisayar (X) için rastgele bir hamle yapar.
-    Boş karelerden birini rastgele seçer ve tahtaya 'X' koyar.
+    Boş karelerden birini rastgele seçer ve tahtaya "X" koyar.
     """
     # Önce boş karelerin listesini al
     bos_alanlar = bos_kareleri_listele(tahta)
@@ -96,7 +96,7 @@ def bilgisayar_hamlesi(tahta):
         satir, sutun = bos_alanlar[indeks]
         
         # Tahtayı güncelle
-        tahta[satir][sutun] = 'X'
+        tahta[satir][sutun] = "X"
 
 # === OYUNUN ANA DÖNGÜSÜ ===
 
@@ -108,7 +108,7 @@ tahta = [
 ]
 
 # 2. Bilgisayarın ilk hamlesi (Her zaman orta - 5)
-tahta[1][1] = 'X'
+tahta[1][1] = "X"
 print("Oyun başladı. Başarılar.")
 tahtayi_goster(tahta)
 
@@ -118,7 +118,7 @@ while True:
     tahtayi_goster(tahta)
 
     # 4. Kullanıcı kazandı mı?
-    if kazanan_var_mi(tahta, 'O'):
+    if kazanan_var_mi(tahta, "O"):
         print("Kazandın!")
         break
 
@@ -132,7 +132,7 @@ while True:
     tahtayi_goster(tahta)
 
     # 7. Bilgisayar kazandı mı?
-    if kazanan_var_mi(tahta, 'X'):
+    if kazanan_var_mi(tahta, "X"):
         print("Bilgisayar kazandı!")
         break
 
